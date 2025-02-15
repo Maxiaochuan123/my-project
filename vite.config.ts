@@ -4,4 +4,10 @@ import vue from '@vitejs/plugin-vue'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue()],
+  optimizeDeps: {
+    include: ['naive-ui', 'vue', 'my-components']
+  },
+  resolve: {
+    dedupe: ['vue', 'naive-ui']
+  }
 })

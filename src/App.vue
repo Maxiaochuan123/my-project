@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { NConfigProvider } from 'naive-ui'
+import { NConfigProvider, NButton } from 'naive-ui'
 
 const themeOverrides = {
   common: {
@@ -13,7 +13,11 @@ const themeOverrides = {
     <div class="container">
       <h1>测试组件库</h1>
       <div class="demo-section">
-        <h2>按钮组件</h2>
+        <h2>原生按钮</h2>
+        <div class="button-group">
+          <n-button>测试按钮</n-button>
+        </div>
+        <h2>组件库按钮</h2>
         <div class="button-group">
           <my-button></my-button>
           <my-button type="primary">主要按钮</my-button>
@@ -79,3 +83,4 @@ h2 {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) !important;
 }
 </style>
+<!-- git+https://github.com/Maxiaochuan123/my-components.git#main --sparse=/dist -->
