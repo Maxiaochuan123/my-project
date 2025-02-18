@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   optimizeDeps: {
-    include: ['naive-ui', 'vue', 'my-components']
+    include: ['naive-ui', 'vue']
   },
   resolve: {
     dedupe: ['vue', 'naive-ui']

@@ -19,11 +19,11 @@ const themeOverrides = {
         </div>
         <h2>组件库按钮</h2>
         <div class="button-group">
-          <my-button></my-button>
           <my-button type="primary">主要按钮</my-button>
-          <my-button type="success">成功按钮</my-button>
-          <my-button type="warning">警告按钮</my-button>
-          <my-button type="error">错误按钮</my-button>
+        </div>
+        <h2>组件库标签</h2>
+        <div class="button-group">
+          <my-tag type="success">测试标签</my-tag>
         </div>
       </div>
     </div>
